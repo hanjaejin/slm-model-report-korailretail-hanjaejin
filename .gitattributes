@@ -1,0 +1,8 @@
+# Windows에서 LF/CRLF 자동 변환 방지
+* text=auto
+*.html text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+
+# 한글 파일명 안전 처리
+* encoding=UTF-8
